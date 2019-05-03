@@ -1,0 +1,80 @@
+body {
+  min-width: 1005px; /* your desired width */
+  max-width: 100%;
+  position: relative;
+  vertical-align:middle;
+}
+.first{
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+}
+.dropdown{
+  position: absolute;
+  width: 150px;
+  opacity: 0;
+  visibility: hidden;
+}
+.first li {
+  float: left;
+  padding: 5px;
+  background: #5767a2;
+  border-left: 1px dotted #fff;
+}
+.first li:first-child{
+  border: none;
+}
+.first li a{
+  display: block;
+  padding: 2px 20px;
+  color: #fff;
+  font-family: arial;
+}
+.first li:hover{
+  background: #fff;
+}
+.first li:hover a{
+  color: #5767a2;
+}
+.subs {
+  left: -45px;
+  position: relative;
+  top: 0px;
+  width: 175px;
+  border-left: none !important;
+   border-bottom: 1px dotted #fff !important;
+ }
+ .subs:last-child{
+   border: none !important;
+ }
+ .hassubs:hover .dropdown,.hassubs .hassubs:hover .dropdown{
+   opacity: 1;
+   visibility: visible;
+ }
+ .first li:hover ul a,.first li:hover ul li ul li a{
+   color: white;
+ }
+ .first li ul li:hover,.first li ul li ul li:hover{
+   background: #fff;
+ }
+ .first li ul li:hover a,.first li ul li ul li:hover a{
+   color: #5767a2;
+ }
+ .hassubs .hassubs .dropdown .subs{
+   left: 25px;
+   position: relative;
+   width: 165px;
+   top: 0px;
+ }
+ .hassubs .hassubs .dropdown{
+   position: absolute;
+   width: 150px;
+   left: 120px;
+   top: 0px;
+   opacity: 0;
+   visibility: hidden;
+ }

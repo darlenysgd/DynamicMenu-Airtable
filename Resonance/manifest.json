@@ -1,0 +1,10 @@
+{
+    "name": "Resonance Dynamic Menu",
+    "version": "1.0",
+    "description": "Resonance Dynamic Menu. By Darlenys G.",
+    "manifest_version": 2,
+  
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Tutorial</title>
+  </head>
+  <body>
+	 <h1>Tech Pirate Homework Assignment - Resonance</h1>
+     <p>Darlenys G.</p>
+     <hr/>
+  	{% for key, value in menu.items() %}
+  		 <ul>
+  		 	<li>{{key}}</li>
+  		 
+  		 		<ul>
+					{% for dict_item in value.Submenu %}
+						<li>{{dict_item}}
+							<ul>
+								{% for item in value.action %}
+								
+									{% if item.Submenu == dict_item %}
+										<li>
+											<a href="{{item.url}}">{{item.name}}</a>
+										</li>
+									{% endif %}
+							{% endfor %}
+							
+							</ul>
+							
+						</li>
+					{% endfor %}
+  		 		</ul>
+  		 	
+  		 </ul>
+  	{% endfor %}
+  	 </body>
+ </html>
