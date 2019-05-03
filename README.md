@@ -4,7 +4,7 @@ Tech Pirate Homework Assignment - Resonance
 Based on the mission provided that consist on build a dynamic menu using the links and menu ontology provided in an Airtable base I have accomplished the fallowing goals:
 
 1. Consume the Airtable API and build a dynamic menu with the data given:
-   To accomplish this goal I used python3, since I notice is a main programming language in Resonance. In the code I'm making a    request to the Airtable API using my API KEY and the BASE KEY and then transform de data given to build a structure that        facilitates to render the menu in the user interface.
+   To accomplish this goal I used python3, since I noticed is a main programming language in Resonance. In the code I'm making a    request to the Airtable API using my API KEY and the BASE KEY and then transform de data given to build a structure that        facilitates to render the menu in the user interface.
 2. Develop a user interface to render the menu:
   For this I used Flask, a microframework for Python and Bootstrap to style the menu. In the main directory you can see a file   called "DynamicMenuWeb" with the results.
 3. Develop a Google Crhome Extension:
