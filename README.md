@@ -1,6 +1,8 @@
 # DynamicMenu-Airtable
 Tech Pirate Homework Assignment - Resonance
 
+To run de python app you'll need some packages that are listed in the the main directory in the "requirements.txt" file, you can install them individually or in a virtual environment.
+
 Based on the mission provided that consist on build a dynamic menu using the links and menu ontology provided in an Airtable base I have accomplished the fallowing goals:
 
 1. Consume the Airtable API and build a dynamic menu with the data given:
